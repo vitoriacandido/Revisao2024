@@ -1,0 +1,15 @@
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\bin\Debug\net8.0\geradorDeSenha.exe
+C:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\bin\Debug\net8.0\geradorDeSenha.deps.json
+C:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\bin\Debug\net8.0\geradorDeSenha.runtimeconfig.json
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\bin\Debug\net8.0\geradorDeSenha.dll
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\bin\Debug\net8.0\geradorDeSenha.pdb
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.AssemblyInfoInputs.cache
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.AssemblyInfo.cs
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.csproj.CoreCompileInputs.cache
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.sourcelink.json
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.dll
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\refint\geradorDeSenha.dll
+c:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.pdb
+C:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\geradorDeSenha.genruntimeconfig.cache
+C:\Users\Alunos\Documents\VV\Revisao2024\geradorDeSenha\obj\Debug\net8.0\ref\geradorDeSenha.dll
