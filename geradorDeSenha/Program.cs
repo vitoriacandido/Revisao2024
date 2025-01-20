@@ -9,12 +9,12 @@ class Program
         int quantidade = int.Parse(Console.ReadLine());
 
         // Perguntar se deve incluir letras, números e especiais
-        Console.WriteLine("Adicionar letras? (S/N): ");
-        bool incluirLetras = Console.ReadLine().ToUpper() == "S";
-        Console.WriteLine("Adicionar números? (S/N): ");
-        bool incluirNumeros = Console.ReadLine().ToUpper() == "S";
-        Console.WriteLine("Adicionar especiais? (S/N): ");
-        bool incluirEspeciais = Console.ReadLine().ToUpper() == "S";
+        Console.WriteLine("Adicionar letras? (Sim/Nao): ");
+        bool incluirLetras = Console.ReadLine().ToUpper() == "Sim";
+        Console.WriteLine("Adicionar números? (Sim/Nao): ");
+        bool incluirNumeros = Console.ReadLine().ToUpper() == "Sim";
+        Console.WriteLine("Adicionar especiais? (Sim/Nao): ");
+        bool incluirEspeciais = Console.ReadLine().ToUpper() == "Sim";
 
         // Gerar e exibir a senha
         string senha = GerarSenha(quantidade, incluirLetras, incluirNumeros, incluirEspeciais);
