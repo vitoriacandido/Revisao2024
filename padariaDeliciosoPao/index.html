@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Padaria Delicioso Pão</title>
+        <!-- Link para o arquivo CSS -->
+        <link rel="stylesheet" href="CSS/style.css">
+        <!-- Bootstrap CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Sacramento&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <!-- Barra de navegação com estilo fixo -->
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e87e00;">
+                <div class="container">
+                    <a href="index.html" class="navbar-brand d-flex align-items-center text-white">
+                        <img src="img/PADARIA.png" alt="Logo" width="150" height="150">
+                        <span class="ms-3">Padaria Delicioso Pão</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#introducao">Introdução</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#produtos">Produtos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="mt-5 pt-5">
+            <!-- Seção de Introdução -->
+            <section id="introducao" class="text-center my-5 py-5" style="background-color: #f1a400; color: white;">
+                <div class="container">
+                    <h1 class="display-4">Bem-vindo à Padaria Delicioso Pão</h1>
+                    <p class="lead">Uma experiência de sabor inigualável com nossos produtos fresquinhos, feitos com carinho e qualidade.</p>
+                </div>
+            </section>
+        
+            <!-- Cards de Produtos -->
+            <section id="produtos" class="container my-5">
+                <h2 class="text-center mb-4" style="color: #b45f06;">Nossos Produtos</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+        
+                    <!-- Card de Produto 1 -->
+                    <div class="col">
+                        <div class="card shadow-lg border-0 rounded">
+                            <img src="img/p.fresq.jpg" class="card-img-top" alt="Pão Fresquinho">
+                            <div class="card-body" style="background-color: #f7e2c2;">
+                                <h5 class="card-title" style="color: #b45f06;">Pão Fresquinho</h5>
+                                <p class="card-text" style="color: #8b4c1e;">Experimente o nosso pão fresquinho, feito com receitas exclusivas e ingredientes selecionados.</p>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card de Produto 2 -->
+                    <div class="col">
+                        <div class="card shadow-lg border-0 rounded">
+                            <img src="img/pao-de-forma-integral-1024x602.jpg" class="card-img-top" alt="Pão de Forma">
+                            <div class="card-body" style="background-color: #f7e2c2;">
+                                <h5 class="card-title" style="color: #b45f06;">Pão de Forma Integral</h5>
+                                <p class="card-text" style="color: #8b4c1e;">Nosso pão de forma integral é ideal para o seu dia a dia. Macio e saboroso!</p>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card de Produto 3 -->
+                    <div class="col">
+                        <div class="card shadow-lg border-0 rounded">
+                            <img src="img/p.doce.jpg" class="card-img-top" alt="Pão Doce">
+                            <div class="card-body" style="background-color: #f7e2c2;">
+                                <h5 class="card-title" style="color: #b45f06;">Pão Doce</h5>
+                                <p class="card-text" style="color: #8b4c1e;">Pão docinho que adoça o seu dia!</p>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card de Produto 4 -->
+                    <div class="col">
+                        <div class="card shadow-lg border-0 rounded">
+                            <img src="img/p.chapa.jpg" class="card-img-top" alt="Pão na Chapa">
+                            <div class="card-body" style="background-color: #f7e2c2;">
+                                <h5 class="card-title" style="color: #b45f06;">Pão na Chapa</h5>
+                                <p class="card-text" style="color: #8b4c1e;">Comece seu dia com nosso pão na chapa.</p>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card de Produto 5 -->
+                    <div class="col">
+                        <div class="card shadow-lg border-0 rounded">
+                            <img src="img/p.ovo.avif" class="card-img-top" alt="Pão com Ovo">
+                            <div class="card-body" style="background-color: #f7e2c2;">
+                                <h5 class="card-title" style="color: #b45f06;">Pão com Ovo</h5>
+                                <p class="card-text" style="color: #8b4c1e;">Pão com ovo, para aquele café da manhã reforçado.</p>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Card de Produto 6 -->
+                    <div class="col">
+                        <div class="card shadow-lg border-0 rounded">
+                            <img src="img/p.queijo.webp" class="card-img-top" alt="Pão de Queijo">
+                            <div class="card-body" style="background-color: #f7e2c2;">
+                                <h5 class="card-title" style="color: #b45f06;">Pão de Queijo</h5>
+                                <p class="card-text" style="color: #8b4c1e;">Pão de queijo mais mineiro possível, uai!</p>
+                                <a href="#" class="btn btn-primary">Saiba mais</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer style="background-color: #b45f06;" class="text-white text-center py-3">
+            <p>&copy; 2025 Padaria Delicioso Pão. Desenvolvido por Vitória.</p>
+            <a href="https://github.com/vitoriacandido/Vale-Imobiliaria.git" class="text-decoration-none text-white">Github</a>
+        </footer>
+
+        <!-- Bootstrap JS and dependencies -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+</html>
