@@ -75,23 +75,12 @@ header .navbar-toggler-icon {
 }
 
 .card-body {
-    background-color: #f7e2c2; /* Tom suave de amarelo quente */
+    background-color: hwb(27 20% 8% / 0.726); /* Tom suave de amarelo quente */
     padding: 20px;
     text-align: center;
 }
 
-.card-title {
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: #b45f06; /* Marrom quente */
-    margin-bottom: 15px;
-}
 
-.card-text {
-    font-size: 1rem;
-    color: #8b4c1e; /* Marrom médio */
-    margin-bottom: 20px;
-}
 
 .btn-primary {
     background-color: #d45600; /* Laranja escuro */
@@ -146,4 +135,7 @@ footer p {
     .card-title {
         font-size: 1.2rem;
     }
+
+
+
 }
