@@ -1,6 +1,6 @@
 ## RECAPTULAÇÃO/REVISÃO DAS MATÉRIAS APRENDIDAS EM 2024.
 ## Estrutura básica
-<!DOCTYPE html>
+**<!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -26,5 +26,5 @@
     </div>
   </header>
 </body>
-</html>
+</html>**
 
